@@ -1,3 +1,12 @@
+# Desenvolva um programa que:
+
+# Leia 6 números inteiros do usuário.
+# Para cada número:
+# Mostre se ele é par ou ímpar,
+# Se é positivo ou negativo,
+# E se está entre 10 e 100 (inclusive).
+# Ao final, mostre quantos números atendem aos três critérios ao mesmo tempo.
+
 numeros = []
 numerosNaoRequisitos = []
 requisitosOk = []

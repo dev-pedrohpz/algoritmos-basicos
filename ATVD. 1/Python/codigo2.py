@@ -1,22 +1,9 @@
+# Crie um programa que:
 
-
-# valorA = float(input("Insira o valor A: "))
-# valorB = float(input("Insira o valor B: "))
-
-# verificacao = (valorA == 0 or valorB == 0)
-
-# while verificacao == True:
-
-#     valorA = float(input("Insira o valor A: "))
-#     valorB = float(input("Insira o valor B: "))
-
-#     if verificacao != True:
-#         break
-
-# print(valorA + valorB)    
-
-
-# etrutura do while inicia aqui
+# Peça dois números inteiros positivos.
+# Se os dois forem maiores que 10, calcule e mostre a soma e a diferença entre eles.
+# Caso contrário, mostre apenas o maior entre eles.
+# O programa deve repetir até que ambos os números digitados sejam maiores que 0.
 
 valorA = float(input("Insira o valor A: "))
 valorB = float(input("Insira o valor B: "))

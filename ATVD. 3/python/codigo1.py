@@ -1,11 +1,25 @@
-v1 = int(input("Insira o valor 1: "))
-v2 = int(input("Insira o valor 2: "))
+# Peça ao usuário dois números que representem o início e o fim de um intervalo.
+# Depois, peça outro número que será o divisor.
+# O programa deve mostrar todos os múltiplos do divisor dentro do intervalo informado.
 
-def somaValores(valor1, valor2):
-    return valor1 + valor2
-    
+# Exemplo:
+# Início: 10
+# Fim: 30
+# Divisor: 4
+# Saída: 12, 16, 20, 24, 28
 
-resultado = somaValores(v1, v2)  #se passa os valores das variáveis que serviram de parametro onde irá ser armazenado o retorno, no caso, uma outra variável.
+valor1 = int(input("Insira o valor do ínicio: "))
+valor2 = int(input("Insira o valor do fim: "))
+divisor = int(input("Insira o divisor: "))
+valorInicial = valor1 #armazena o valor inicial nessa variável, antes da primeir começar a ser modificada
+multiplos = []
 
-resultadoFinal = resultado * 3
-print(f"O resultado da operação é {resultadoFinal}")
+while valor1 <= valor2:
+    if( valor1 %divisor == 0):
+        multiplos.append(valor1)
+    valor1 = valor1 + 1    
+
+print(f"O valor de ínicio é: {valorInicial}")    
+print(f"O valor de fim é: {valor2}")  
+print(f"O divisor que percorrerá esse intervalo: {divisor}")
+print(f"OS multíplos presentes nesse intervalo do divisor {divisor} são: {multiplos}")

@@ -1,9 +1,23 @@
-nomeProduto1 = input("Informe o nome do produto: ")
-quantidadeDesejada = int(input("Informe a quantidade: "))
+# Crie um programa que leia 5 números.
+# Some apenas os números positivos e pares.
+# No final, exiba:
 
-def verificacaoEstoque(nomeProduto, quantidadeProduto):
-    quantidadeDisponivel = 50
-    return quantidadeDisponivel - quantidadeProduto
+# A soma total dos valores considerados
+# Quantos números foram somados
 
-resultado = verificacaoEstoque(nomeProduto1, quantidadeDesejada)
-print(f"O estoque final do produto {nomeProduto1} é de: {resultado}")
+valoresSomados = []
+valoresImpares = []
+quantidadeValoresSomados = 0
+for i in range(0, 5):
+    valor = int(input("Insira um valor: "))
+    valorPar = valor %2 == 0
+    if(valorPar):
+        valoresSomados.append(valor)
+        quantidadeValoresSomados+=1 ## usado para incrementar uma variável global, nesse caso, contar a quantidade de números aptos para se somar e que são pares.
+
+    elif(valorPar != True):
+        print("o número é ímpar!")
+        valoresImpares.append(valor)
+    
+somaTotal = sum(valoresSomados)
+print(f"A soma dos valores {valoresSomados} é {somaTotal}, são {quantidadeValoresSomados} valores para se somar")

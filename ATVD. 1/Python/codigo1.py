@@ -1,3 +1,11 @@
+# Escreva um programa que:
+
+# Leia o nome, idade, peso e altura de uma pessoa.
+# Calcule o IMC (peso / altura²).
+# Mostre o IMC com duas casas decimais.
+# Classifique a idade como "menor de idade", "adulto" ou "idoso" (idoso ≥ 60).
+# Se o IMC for maior que 25 e a pessoa for adulta, exiba: "Atenção com a saúde!"
+
 nome = input("Insira o seu nome: ")
 idade = int(input("Insira a sua idade: "))
 peso = float(input("Insira o seu peso: "))

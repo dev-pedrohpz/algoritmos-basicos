@@ -1,3 +1,10 @@
+# Crie um programa que:
+
+# Peça o nome de usuário e senha até que sejam informados corretamente.
+# Considere como válidos: usuário "admin" e senha "1234".
+# Após o login, pergunte a idade e diga se o acesso é completo (idade ≥ 18) ou restrito.
+# Utilize estrutura de repetição e operadores lógicos.
+
 usuarioValido = "admin"
 senhaValida = "1234"
 

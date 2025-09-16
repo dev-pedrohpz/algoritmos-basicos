@@ -1,3 +1,10 @@
+# Faça um programa que:
+
+# Leia o nome e a idade de 5 pessoas, usando um laço for.
+# Para cada pessoa, diga se ela pode votar (idade ≥ 16).
+# No final, mostre quantas pessoas podem votar.
+# Se mais da metade puder votar, exiba: "Maioria apta".
+
 votantesAptos = []
 votantesN_Aptos = []
 pessoas = []
